@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+.hangman {
+  text-align: center;
+}
+
+.btn-info {
+  font-family: "Bangers", cursive;
+  margin-top: 5%;
+  /* margin-left: 25%; */
+}
+
+.title {
+  font-family: "Bangers", cursive;
+  text-decoration: underline;
+  text-shadow: gray;
+}
+
+.symbol {
+  font-family: "Bangers", cursive;
+}
+
+.count {
+  font-family: "Bangers", cursive;
+}
+
+.state {
+  font-family: "Bangers", cursive;
+  background-color: cornsilk;
+}
+
+.letter > span {
+  font-family: "Bangers", cursive;
+}
+
+@media all and (max-device-width: 480px) {
+  .hangman {
+    flex-direction: column;
+  }
+
+  .header {
+    flex-direction: column;
+    height: 15%;
+  }
+
+  .title {
+    font-family: "Bangers", cursive;
+    /* margin-left: 3%; */
+  }
+
+  .btn-info {
+    font-family: "Bangers", cursive;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  .symbol {
+    font-family: "Bangers", cursive;
+  }
+
+  .count {
+    font-family: "Bangers", cursive;
+  }
+
+  .state {
+    font-family: "Bangers", cursive;
+  }
+
+  .letter > span {
+    font-family: "Bangers", cursive;
+  }
+}
