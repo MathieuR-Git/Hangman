@@ -8,6 +8,6 @@ CSS3
 React
 BOOTSTRAP
 
-### A faire:
+## A faire:
 
 Créer le canvas pour le pendu
